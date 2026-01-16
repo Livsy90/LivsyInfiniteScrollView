@@ -2,7 +2,8 @@
 
 A generic SwiftUI component for infinite (looping) scrolling along a chosen axis. It mirrors the `ScrollView` API while adding item duplication and seamless position wrap-around to achieve a continuous loop.
 
-<img src="https://github.com/Livsy90/LivsyToast/blob/main/LivsyToastDemo.gif" height="450">
+<img src="https://github.com/Livsy90/LivsyInfiniteScrollView/blob/main/InfiniteScrollViewDemo" height="450">
+<img src="https://github.com/Livsy90/LivsyInfiniteScrollView/blob/main/InfiniteScrollViewDemo2" height="450">
 
 ## How it works
 `InfiniteScrollView` continuously renders your data and appends a calculated number of repeated items so that when the end is reached, scrolling smoothly continues from the beginning. During wrap-around, the component preserves the current scrolling velocity using a transaction, making the jump imperceptible to the user.
