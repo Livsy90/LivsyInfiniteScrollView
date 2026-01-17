@@ -43,9 +43,6 @@ Add the package to your dependencies:
 ## Example
 
 ```swift
-    struct Item: Identifiable { let id = UUID(); let index: Int }
-    let dataSource = Array(1...10).map { Item(index: $0) }
-
     InfiniteScrollView(
         axis: .horizontal,
         spacing: 10,
@@ -65,9 +62,6 @@ Add the package to your dependencies:
     .frame(height: 120)
 ```
 ```swift
-    struct Item: Identifiable { let id = UUID(); let index: Int }
-    let dataSource = Array(1...20).map { Item(index: $0) }
-
     InfiniteScrollView(
         axis: .vertical,
         spacing: 8,
