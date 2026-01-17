@@ -37,7 +37,7 @@ The component mirrors the core `ScrollView` API: it accepts a scroll axis and a 
 ### Swift Package Manager (Package.swift)
 Add the package to your dependencies:
 ```swift
-.package(url: "https://github.com/Livsy90/LivsyInfiniteScrollView", from: "1.0.0")
+.package(url: "https://github.com/Livsy90/LivsyInfiniteScrollView", branch: "main")
 ```
 
 ## Example
